@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  ftp:
+    build: './ftp/'
+    ports:
+      - '7021:21'
+      - '30000-30100:30000-30100'
+    restart: always
+
+  samba:
+    build: './samba/'
+    ports:
+      - '7137:137/udp'
+      - '7138:138/udp'
+      - '7139:139'
+      - '7445:445'
+    restart: always
+
+  http:
+    build: './http/'
+    ports:
+      - '7080:80'
+    restart: always
+
+  smtp:
+    build: './smtp/'
+    ports:
+      - '7025:25'
+    restart: always
