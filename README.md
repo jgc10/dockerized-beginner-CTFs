@@ -4,7 +4,8 @@ These Docker containers were originally made for the cyber@CIT club and aim to t
 
 - common Linux commands
 - Linux file system structure
+- basic Linux security principles
 - connecting to remote services
 - enumerating remote services
 
-These can be expanded for more in-depth challenges and are easily customizable using the Dockerfiles.
+These can be used as a base for more in-depth challenges and are easily expanded using the Dockerfiles.
