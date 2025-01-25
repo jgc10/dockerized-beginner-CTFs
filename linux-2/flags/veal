@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" = "parmasean" ]
+then
+    echo "CIT{f2f0504817b3a23f}"
+else
+    echo "You're not a made guy."
+fi
